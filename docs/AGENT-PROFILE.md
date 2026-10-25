@@ -30,6 +30,12 @@ Public source and detailed records: https://github.com/Gentle-mann/counteragent-
 
 66 automated checks. Live case 4e901e0d4a61 closed with signed marketplace challenges, both adviser responses, six departmental adviser verdicts, Slack approval, both document signatures, AP, sandbox payment and IT. An earlier live case demonstrated the same-vendor invoice-change/fresh-approval flow; current regression tests cover the later signing implementation separately.
 
+## Signing and payment proof
+
+User-run Quickdash case 4a95515f5826 has now closed with both document signatures, AP verification, sandbox transaction DEMO-4a95515f5826 and IT handoff. There is no Docusign envelope and no real settlement. The dashboard shows a verified signature card and first annual invoice Paid — sandbox; down payment is $0.
+
+Proof and independently verifiable packet: https://github.com/Gentle-mann/counteragent-fetchai/blob/main/docs/SIGNING-AND-PAYMENT-PROOF.md
+
 ## Scope
 
 Fictional companies and synthetic records. Supported execution: analytics software, 250 employees, 24 months, annual USD. No real funds, legal contract or external SaaS tenant. Signatures establish integrity and agent-key control, not real company authority. Stripe is an optional mocked-test adapter, not a verified real payment integration. No Docusign runtime integration is claimed. Local process must remain running; execution state is not automatically restored after restart. Agentverse/ASI moderation rescan behavior is not asserted.

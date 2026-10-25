@@ -12,10 +12,19 @@ class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         if self.path == '/api/events':
             snapshot = store.snapshot()
+            from closing_view import closing_receipt
+            closings=[]
+            for path in sorted((ROOT/'.runtime').glob('*-audit.json')):
+                try:
+                    record=json.loads(path.read_text(encoding='utf-8'))
+                    if not any(e.get('mode')=='live_model' for e in record['events']):continue
+                    receipt=closing_receipt(record['state'],record['events'])
+                    if receipt:closings.append(receipt)
+                except (ValueError,KeyError,TypeError,OSError):continue
             result_path=ROOT / '.runtime' / 'scenario-results.json'
             scenarios=json.loads(result_path.read_text(encoding='utf-8')) if result_path.exists() else []
             body = json.dumps({'events': [e for e in snapshot['events'] if e.get('mode') == 'live_model'],
-                'scenarios':scenarios,
+                'scenarios':scenarios,'closings':closings,
                 'case_stats': [{'deal':m['deal'],'role':m['role'],'memory_steps':len(m['steps'])} for m in snapshot['memories']]}).encode()
             content_type = 'application/json'
         elif self.path in ('/', '/index.html'):

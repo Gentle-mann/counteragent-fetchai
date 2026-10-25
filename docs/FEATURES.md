@@ -45,3 +45,7 @@ Payment uses AgentPaymentProtocol 0.1.0 RequestPayment → CommitPayment → Com
 ## Graph and demo operations
 
 Company groups and agent nodes show actual recorded communication paths. Messages, Decisions and Tools & data filters support event inspection. Quote cards show opening/final prices, remediation cost, rollout and policy status. Discovery cards show source, signed scope and fictional-company labeling. Revision events show what changed, why approval was revoked and how execution resumed. Documents expose signature checks. Scenario cards compare completed model runs. Replay, speed controls and Loop demo support a three-minute presentation without fabricating activity or rerunning transactions.
+
+## Closing receipt UI
+
+The dashboard shows the selected completed deal’s annual price, TCV, policy cap, remediation cost, evidence revision and rollout tradeoff. The first annual invoice is labeled Paid — sandbox only when the recorded approval, matching packet signatures, AP match and ordered payment completion are present. The UI explicitly shows zero down payment, zero due at signing and the year-two schedule. Verified signature cards link to the complete signed packet. Ad hoc negative checks confirmed that document mutation, missing payment completion or revoked approval suppress the paid state. This is not a Docusign receipt or real settlement.

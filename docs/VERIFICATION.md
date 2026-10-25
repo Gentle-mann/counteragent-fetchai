@@ -27,3 +27,5 @@ The full signed run recommended Beacon at $120,000/year versus Quickdash at $126
 ## Known gaps
 
 No production crash recovery, process isolation, general supplier onboarding, non-analytics execution profile, live Stripe settlement, legal Docusign execution, externally provisioned tenant, platform-moderation bypass test or independent penetration test is claimed. The personal ASI:One profile and deployed Agentverse agent are separate identities; use the deployed agent for the actual workflow.
+
+Additional closing-view checks: the valid Quickdash packet renders verified signatures and sandbox-paid status; document tampering, missing payment_complete and a newer revoked approval do not render paid. The existing automated suite remains 66 tests.
