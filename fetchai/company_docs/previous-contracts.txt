@@ -1,0 +1,5 @@
+Acme previous analytics contracts (fictional sample data)
+2023: 180 seats; list $96,000/year; paid $84,480/year; discount 12%; net 30.
+2024: 220 seats; list $132,000/year; paid $105,600/year; discount 20%; net 45.
+2025: 150 seats; list $70,000/year; paid $61,600/year; discount 12%; net 60.
+2026 pilot: 250 licensed seats, 212 weekly active analysts, 64 EU analysts.

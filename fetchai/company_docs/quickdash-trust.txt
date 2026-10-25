@@ -1,0 +1,9 @@
+FICTIONAL BENCHMARK TRUST PACK
+[QD1] SOC 2 includes unresolved access-review and change-management exceptions.
+[QD2] US-only processing; EU residency is not committed.
+[QD3] SAML supported; SCIM remains on the roadmap and is unavailable for this order.
+[QD4] Encryption is supported.
+[QD5] Last synthetic penetration-test record is from 2024.
+[QD6] Aggregated customer data may be used for model training.
+[L12.3] Mandatory auto-renewal, 9% renewal uplift; 120-day notice.
+[L9.1] Liability limited to three months of fees. No remediation or waiver is authorized in this scenario.

@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+!fetchai/.env.example
+.venv/
+__pycache__/
+*.pyc
+fetchai/.runtime/
+node_modules/
+.DS_Store

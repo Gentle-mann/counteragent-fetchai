@@ -1,0 +1,9 @@
+FICTIONAL BENCHMARK TRUST PACK
+[TP1] SOC 2 Type II completed with no unresolved exceptions; ISO 27001 certified (simulation assertions).
+[TP3] EU processing in Frankfurt; US processing available separately. EU residency can be committed for this order.
+[TP4] SAML/OIDC SSO and SCIM lifecycle management supported.
+[TP5] AES-256 at rest and TLS 1.3 in transit.
+[TP6] March 2026 penetration test; high findings remediated in this synthetic scenario.
+[TP7] Breach notification within 72 hours.
+[TP8] Customer data is not used for model training.
+[L9] Liability cap: 12 months of fees; renewal optional. These are simulation policy limits, not an executed contract.

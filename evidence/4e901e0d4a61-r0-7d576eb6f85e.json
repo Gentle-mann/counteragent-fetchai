@@ -1,0 +1,111 @@
+{
+  "bundle": {
+    "document_id": "4e901e0d4a61-r0",
+    "deal_id": "4e901e0d4a61",
+    "revision": 0,
+    "terms_version": "SAAS-DEMO-2026-v1",
+    "fictional_demo_only": true,
+    "parties": {
+      "buyer": "Acme (fictional)",
+      "vendor": "Beacon Analytics"
+    },
+    "order_form": {
+      "vendor_key": "beacon",
+      "seats": 250,
+      "term_months": 24,
+      "annual_subscription_fee": 120000,
+      "currency": "USD",
+      "remediation_included": false,
+      "remediation_annual_fee": 0,
+      "implementation_days": 7,
+      "evidence_revision": "BASE-v1",
+      "payment_plan": {
+        "billing_frequency": "annual_in_advance",
+        "currency": "USD",
+        "term_months": 24,
+        "total_contract_commitment": 240000,
+        "amount_due_at_signature": 0,
+        "first_invoice_amount": 120000,
+        "payment_terms_days": 45,
+        "deposit": 0,
+        "separate_implementation_fee": 0,
+        "tax_amount": 0,
+        "tax_basis": "fictional approved tax-exempt vendor-master record",
+        "invoices": [
+          {
+            "period": "year_1",
+            "service_month_start": 0,
+            "service_month_end": 12,
+            "invoice_month": 0,
+            "due_days_after_invoice": 45,
+            "amount": 120000
+          },
+          {
+            "period": "year_2",
+            "service_month_start": 12,
+            "service_month_end": 24,
+            "invoice_month": 12,
+            "due_days_after_invoice": 45,
+            "amount": 120000
+          }
+        ],
+        "remediation_fee_included_in_each_annual_invoice": 0,
+        "credit_activation": "Signed order, approved credit and undisputed invoice permit onboarding before invoice due date.",
+        "demo_execution": "Payment messages replay the first invoice at its due day; no real funds move. Year two remains scheduled."
+      }
+    },
+    "msa": {
+      "liability_months_of_fees": 12,
+      "auto_renew": true,
+      "renewal_uplift_cap_pct": 3,
+      "price_fixed_for_current_24_month_term": true,
+      "scope_change_requires_signed_amendment": true,
+      "invoice_dispute_holds_disputed_amount_only": true,
+      "purchase_order_cannot_silently_amend_signed_terms": true
+    },
+    "dpa_security_addendum": {
+      "data_region": "EU",
+      "training_on_customer_data": false,
+      "scim_required": true,
+      "saml_required": true,
+      "evidence_revision": "BASE-v1"
+    },
+    "implementation_sow": {
+      "separate_fee": 0,
+      "included_in_subscription": true,
+      "pilot_seats": 25,
+      "rollout_seats": 225,
+      "acceptance_checks": [
+        "EU tenant region",
+        "SAML login",
+        "SCIM create/deactivate",
+        "250 entitlements"
+      ],
+      "additional_paid_services_require_separate_sow_and_approval": true
+    },
+    "research_sources": {
+      "subscription_billing": "https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/legal/salesforce_MSA.pdf",
+      "document_structure": "https://www.salesforce.com/company/legal/customer-agreements/",
+      "order_form_and_disputes": "https://www.snowflake.com/en/legal/terms-of-service/",
+      "services_scope": "https://handbook.gitlab.com/handbook/sales/field-operations/sales-operations/deal-desk/"
+    }
+  },
+  "signatures": {
+    "buyer": {
+      "role": "buyer",
+      "signer_address": "agent1q2qz4tp5uylllpqjs8f9497cx72k7rkmww7t72shxnam22xszk0e2mzcy0k",
+      "document_hash": "7d576eb6f85ee6da92eb68b3f7799702b60668fca2b4fcaa23cf0833b4ee160d",
+      "algorithm": "uAgents secp256k1 / SHA-256",
+      "signature": "sig1kpm5vpgr8uwqkzfl4m8l8a7dq538dlptmlec80wmusypuqq2x88yrgd8nkllz9qk2tjtde5tsvcjk9zcd8s208jce5q2syjxgptwvls2aw4h5",
+      "scope": "fictional document approval only"
+    },
+    "vendor": {
+      "role": "vendor",
+      "signer_address": "agent1qf0x5u2ac5e9t2jtlmltqddmstlfv8ekfp4stt0jf25zumtya2t7xksjl9n",
+      "document_hash": "7d576eb6f85ee6da92eb68b3f7799702b60668fca2b4fcaa23cf0833b4ee160d",
+      "algorithm": "uAgents secp256k1 / SHA-256",
+      "signature": "sig1anqxrga3p6qh5zc7zx37xq4ek63z4tyms9lc9uw7d0te0qs9tcvl7xk5zsyjd7r6yltcr7ccgdtkfdhdgnadw4nyaewr3rpxusn589ga9m3n2",
+      "scope": "fictional document approval only"
+    }
+  }
+}

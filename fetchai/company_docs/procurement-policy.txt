@@ -1,0 +1,9 @@
+Acme procurement policy (fictional company, sample internal document)
+Analytics deployment: 250 analysts, including 64 EU employees. Term: 24 months.
+Require EU data residency, SAML SSO, SCIM, SOC2 with no unresolved exceptions.
+Customer data may not be used for model training.
+Target at least 15% off list for a 24-month agreement; 20% is supported by history.
+Payment terms net 45 minimum. Renewal uplift no higher than 3%.
+Liability cap at least 12 months of fees. Security and Legal cannot waive these.
+Finance authority: $200,000 total contract value. Orchestrator: $500,000.
+Human approval is always required to run the demo's closing handoffs.

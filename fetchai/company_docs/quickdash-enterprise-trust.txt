@@ -1,0 +1,9 @@
+FICTIONAL VERIFIED ENTERPRISE ADDENDUM: QD-ENTERPRISE-v2
+[QE1] Prior SOC 2 access-review and change-management exceptions have closure evidence, independently checked in this benchmark.
+[QE2] An isolated EU tenant is available for this order under the paid Enterprise Controls package.
+[QE3] The production SCIM connector and SAML configuration passed the synthetic acceptance suite.
+[QE4] The enterprise DPA prohibits training on customer data and supersedes base QD6.
+[QE5] Enterprise liability is 12 months of fees. Renewal is optional; any agreed renewal uplift is capped at 3%.
+[QE6] Treasury authorizes net 45 or net 60, with financing premiums reflected in the quote.
+[QE7] Deployment lead time is 21 days. Package charges are INCLUDED in the quoted annual total, never added twice.
+These claims apply ONLY to an economically authorized Enterprise quote with this exact revision. Base plan remains unchanged.

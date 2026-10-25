@@ -1,0 +1,6 @@
+Fictional vendor catalog for this demo; these are not real vendor claims.
+Beacon Analytics: annual list price $150,000 for 250 seats, standard 24-month term.
+Quickdash: annual list price $118,000 for 250 seats, standard 24-month term.
+All offer prices are annual USD; a 24-month total contract value is annual price times two.
+Do not interpret annual price as the entire two-year contract price.
+The signed offers and enforced charter values take precedence over persuasive sales prose.
