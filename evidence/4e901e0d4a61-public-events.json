@@ -629,7 +629,8 @@
       "mode": "live_model",
       "document_hash": "7d576eb6f85ee6da92eb68b3f7799702b60668fca2b4fcaa23cf0833b4ee160d",
       "document_url": "/documents/4e901e0d4a61/0/7d576eb6f85e",
-      "transport": "uagents"
+      "transport": "uagents",
+      "signer": "agent1q2qz4tp5uylllpqjs8f9497cx72k7rkmww7t72shxnam22xszk0e2mzcy0k"
     },
     {
       "seq": 179,
@@ -652,7 +653,8 @@
       "text": "Vendor countersigned the identical fictional document bundle",
       "mode": "live_model",
       "document_hash": "7d576eb6f85ee6da92eb68b3f7799702b60668fca2b4fcaa23cf0833b4ee160d",
-      "transport": "uagents"
+      "transport": "uagents",
+      "signer": "agent1qf0x5u2ac5e9t2jtlmltqddmstlfv8ekfp4stt0jf25zumtya2t7xksjl9n"
     },
     {
       "seq": 187,
@@ -665,7 +667,8 @@
       "mode": "live_model",
       "document_hash": "7d576eb6f85ee6da92eb68b3f7799702b60668fca2b4fcaa23cf0833b4ee160d",
       "document_url": "/documents/4e901e0d4a61/0/7d576eb6f85e",
-      "transport": "uagents"
+      "transport": "uagents",
+      "verified": true
     },
     {
       "seq": 189,

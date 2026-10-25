@@ -606,6 +606,125 @@
       "text": "Approval posted to the configured Slack channel",
       "mode": "live_model",
       "transport": "uagents"
+    },
+    {
+      "seq": 382,
+      "at": 1792938630.8261778,
+      "deal_id": "4a95515f5826",
+      "from": "orchestrator",
+      "to": "quickdash.executive",
+      "kind": "document_signed",
+      "text": "Buyer signed the exact human-approved fictional document bundle",
+      "mode": "live_model",
+      "document_hash": "316f7a6f5ecd8d96cf6f255a42fd9beaf50e8b4c9b0c320966fb7381d084c034",
+      "document_url": "/documents/4a95515f5826/0/316f7a6f5ecd",
+      "transport": "uagents",
+      "signer": "agent1q2qz4tp5uylllpqjs8f9497cx72k7rkmww7t72shxnam22xszk0e2mzcy0k"
+    },
+    {
+      "seq": 383,
+      "at": 1792938630.8701727,
+      "deal_id": "4a95515f5826",
+      "from": "human",
+      "to": "orchestrator",
+      "kind": "approval",
+      "text": "Approved the reviewed demo deal",
+      "mode": "live_model",
+      "transport": "uagents"
+    },
+    {
+      "seq": 386,
+      "at": 1792938631.4461708,
+      "deal_id": "4a95515f5826",
+      "from": "quickdash.executive",
+      "to": "ap",
+      "kind": "document_signed",
+      "text": "Vendor countersigned the identical fictional document bundle",
+      "mode": "live_model",
+      "document_hash": "316f7a6f5ecd8d96cf6f255a42fd9beaf50e8b4c9b0c320966fb7381d084c034",
+      "transport": "uagents",
+      "signer": "agent1q2g5w8wcaavrfc63qx0c552ggr9s4vsl45fr0lnryyxga8cjsck3ur39gwh"
+    },
+    {
+      "seq": 391,
+      "at": 1792938634.0272114,
+      "deal_id": "4a95515f5826",
+      "from": "ap",
+      "to": "orchestrator",
+      "kind": "signature_verified",
+      "text": "AP verified buyer and vendor signatures on the identical approved document",
+      "mode": "live_model",
+      "document_hash": "316f7a6f5ecd8d96cf6f255a42fd9beaf50e8b4c9b0c320966fb7381d084c034",
+      "document_url": "/documents/4a95515f5826/0/316f7a6f5ecd",
+      "transport": "uagents",
+      "verified": true
+    },
+    {
+      "seq": 393,
+      "at": 1792938648.3429089,
+      "deal_id": "4a95515f5826",
+      "from": "ap",
+      "to": "finance",
+      "kind": "payment_schedule",
+      "text": "Annual billing in advance; no deposit. First annual invoice replayed at Net 45 in the compressed demo clock.",
+      "mode": "live_model",
+      "document_url": "/documents/4a95515f5826/0/316f7a6f5ecd",
+      "transport": "uagents"
+    },
+    {
+      "seq": 394,
+      "at": 1792938648.3488922,
+      "deal_id": "4a95515f5826",
+      "from": "ap",
+      "to": "orchestrator",
+      "kind": "decision",
+      "text": "Demo PO/order/invoice three-way match: PASS for deal 4a95515f5826 / invoice INV-4a95515f5826 (Quickdash). The invoice ties to the signed order form by deal reference, and vendor identity (Quickdash, vendor-master record V-200), seat count, 24-month term, first-contract-year annual-in-advance billing period, USD currency, and net-45 payment terms agree across purchase order, signed order, and invoice. The offer price was matched as an annual subscription figure (not total contract value); the invoice's annual amount agrees with the order's year-one invoice line and sits within the current authorized annual cap, with historical department allocations treated as baseline records only. Banking check passed: the invoice's bank-ending digits match the vendor-master and company-approved record; no unverified bank-change tickets exist for this vendor, and open ticket AP-481 pertains to the other vendor and remains held. Countersignature confirmed: buyer and vendor signatures cover the same document hash (fictional document-approval scope), satisfying the company check to match the invoice against an approved bank record and independently countersigned order; recorded human approval of the award is present. The enterprise-controls/remediation package is included in each annual invoice per the order form and [QE7] with no separate fee line; implementation is included in the subscription; tax-exempt vendor-master status is consistent with the order. All deterministic checks passed with no flags, and the Quickdash offer block is a validation-applied correction, not an open clearance failure. No discrepancies were found, so no invoice-dispute hold applies; the earlier Quickdash invoice rejected for lack of a PO is superseded by this signed order. Follow-up notes: vendor-master status reads 'conditional' and auto-renew applies with uplift capped per the MSA. No funds move in this match; payment execution and renewal scheduling are separate subsequent sandbox protocol steps.",
+      "mode": "live_model",
+      "transport": "uagents"
+    },
+    {
+      "seq": 396,
+      "at": 1792938648.3701792,
+      "deal_id": "4a95515f5826",
+      "from": "quickdash",
+      "to": "ap",
+      "kind": "payment_request",
+      "text": "INV-4a95515f5826 (sandbox only)",
+      "mode": "live_model",
+      "transport": "uagents"
+    },
+    {
+      "seq": 397,
+      "at": 1792938648.3831806,
+      "deal_id": "4a95515f5826",
+      "from": "ap",
+      "to": "quickdash",
+      "kind": "payment_commit",
+      "text": "DEMO-4a95515f5826 (sandbox; no funds moved)",
+      "mode": "live_model",
+      "transport": "uagents"
+    },
+    {
+      "seq": 398,
+      "at": 1792938648.3891897,
+      "deal_id": "4a95515f5826",
+      "from": "quickdash",
+      "to": "ap",
+      "kind": "payment_complete",
+      "text": "DEMO-4a95515f5826",
+      "mode": "live_model",
+      "transport": "uagents"
+    },
+    {
+      "seq": 406,
+      "at": 1792938655.3902407,
+      "deal_id": "4a95515f5826",
+      "from": "it",
+      "to": "orchestrator",
+      "kind": "decision",
+      "text": "Fictional IT provisioning handover for the Quickdash award: the signed and countersigned order (deal 4a95515f5826, evidence revision QD-ENTERPRISE-v2) covers 250 seats over a 24-month term, with the 21-day implementation included in the subscription. Deployment must be EU-resident with SAML SSO and SCIM provisioning per the DPA security addendum. AP three-way match passed with no flags; the recorded payment status is a simulated protocol handshake only \u2014 no settlement occurred, and no external tenant is created in this simulation. Directory reconciliation requires replacing the stale 242-user legacy snapshot with the authoritative 250-seat HRIS roster (adding E0243-E0250). Rollout stages 25 pilot seats followed by 225 rollout seats, with acceptance gated on EU tenant region, SAML login, SCIM create/deactivate, and 250 entitlements. Auto-renew is active with MSA-capped uplift; renewal scheduling is a separate governance step.",
+      "mode": "live_model",
+      "transport": "uagents"
     }
   ]
 }
