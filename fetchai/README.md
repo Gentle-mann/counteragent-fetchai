@@ -10,8 +10,7 @@ The executable supplier profile remains analytics software, 250 employees, 24 mo
 
 Demo prompt: “Run a demo: find analytics software for 250 employees for 24 months, spending no more than $130,000 per year in USD. Negotiate with supplier agents and recommend a deal for my approval.”
 
-New Python implementation of CounterAgent's procurement design. The original
-TypeScript application remains in `src/` and `public/` for reference.
+Python Fetch implementation of CounterAgent's procurement design. This public repository contains the executable Python implementation and curated synthetic evidence.
 
 Fourteen uAgent identities run in one Bureau: a company orchestrator, seven departments,
 and two vendors each with a deal desk, Trust/Legal desk and executive approver. ASI:One models generate departmental findings and negotiation
